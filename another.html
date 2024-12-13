@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .navigation__checkbox {
+      display: none; 
+    }
+
+    .navigation__background {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      width: 10px;
+      height: 10px;
+      background-color: #333;
+      border-radius: 50%;
+      transform: scale(0); 
+      transition: transform 0.4s ease;
+    }
+
+    .navigation__checkbox:checked ~ .navigation__background {
+      transform: scale(80);
+    }
+  </style>
+</head>
+<body>
+  <label for="nav-toggle" class="navigation__button">
+    <span class="navigation__icon">&nbsp;</span>
+  </label>
+  <input type="checkbox" class="navigation__checkbox" id="nav-toggle">
+  
+  <div class="navigation__background"></div>
+  
+  <nav class="navigation__menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+</body>
+</html>

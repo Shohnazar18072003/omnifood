@@ -1,0 +1,156 @@
+@media (max-width: 480px) {
+  .main-nav {
+    display: none;
+  }
+
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+
+  .menu-btn {
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .hero {
+    text-align: center;
+    display: block;
+  }
+  .heading-primary,
+  .heading-secondary {
+    font-size: 35px;
+    text-align: center;
+  }
+  .btns {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .hero .btn {
+    width: auto;
+    font-size: 16px;
+    margin: 10px 15px;
+  }
+  .delivered-meals {
+    display: none;
+  }
+  .hero-img-box {
+    margin-top: 15px;
+  }
+  .section-featured .logos {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  .section-how {
+    text-align: center;
+  }
+  .section-how .container:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .section-meals {
+    display: block;
+  }
+  .section-meals .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .section-testimonials {
+    display: flex;
+  }
+  .testimonials-container {
+    padding: 0;
+    margin: 50px auto;
+    text-align: center;
+  }
+  .gallery {
+    display: none;
+  }
+  .testimonials {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .testimonial {
+    padding: 15px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    border-radius: 11px;
+    overflow: hidden;
+    transition: all 0.4s;
+  }
+  .testimonial:hover {
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  }
+  .testimonial-text {
+    font-size: 14px;
+  }
+  .section-pricing {
+    text-align: center;
+  }
+  .section-pricing .container:nth-child(2),
+  .container:last-child {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .section-pricing .container:last-child {
+    width: 80%;
+  }
+  .princing-plan .btn {
+    padding: 25px;
+    font-size: 15px;
+  }
+  .section-cta {
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cta {
+    width: 100%;
+    display: flex;
+  }
+  .cta-img-box {
+    display: none;
+  }
+  .cta-form {
+    display: flex;
+    flex-direction: column;
+    text-align-last: left;
+  }
+  .cta-form .btn {
+    display: block;
+   margin: 0 auto;
+  }
+  .footer {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .logo-col {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
